@@ -53,7 +53,7 @@
             android:title="@string/lockscreen_media_art_title"
             android:defaultValue="true" />
 
-        <com.crdroid.settings.preferences.SecureSettingSwitchPreference
+        <org.exthmui.settings.preferences.SecureSettingSwitchPreference
             android:key="lockscreen_visualizer_enabled"
             android:title="@string/music_visualizer_title"
             android:summary="@string/music_visualizer_summary"
