@@ -150,6 +150,7 @@ import com.android.settings.wifi.tether.WifiTetherSettings;
 
 import org.exthmui.settings.exTHmSettings;
 import org.exthmui.settings.fragments.ui.SmartPixels;
+import org.exthmui.settings.fragments.misc.GamingMode;
 
 public class SettingsGateway {
 
@@ -288,6 +289,7 @@ public class SettingsGateway {
             GlobalActionsPanelSettings.class.getName(),
             DarkModeSettingsFragment.class.getName(),
             exTHmSettings.class.getName(),
+            GamingMode.class.getName(),
             SmartPixels.class.getName(),
     };
 
@@ -328,6 +330,7 @@ public class SettingsGateway {
             Settings.ModuleLicensesActivity.class.getName(),
             UserBackupSettingsActivity.class.getName(),
             Settings.exTHmSettingsActivity.class.getName(),
+            Settings.GamingModeActivity.class.getName(),
             Settings.SmartPixelsActivity.class.getName(),
     };
 }

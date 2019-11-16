@@ -179,5 +179,6 @@ public class Settings extends SettingsActivity {
     public static class SystemDashboardActivity extends SettingsActivity {}
 
     public static class exTHmSettingsActivity extends SettingsActivity {}
+    public static class GamingModeActivity extends SettingsActivity {}
     public static class SmartPixelsActivity extends SettingsActivity {}
 }
