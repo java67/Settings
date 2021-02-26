@@ -138,7 +138,7 @@ public class ConfigureNotificationSettings extends DashboardFragment implements
         final PreferenceCategory mipushCategory =
                 (PreferenceCategory) screen.findPreference(KEY_MIPUSH);
         try {
-            this.getPackageManager().getApplicationInfo("top.trumeet.mipush", 0);
+            this.getPackageManager().getApplicationInfo("com.xiaomi.xmsf", 0);
         } catch(Exception e) {
             screen.removePreference(mipushCategory);
         }
