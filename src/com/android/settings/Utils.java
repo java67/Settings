@@ -1084,7 +1084,7 @@ public final class Utils extends com.android.settingslib.Utils {
             return false;
         }
     }
-    +
+
     public static boolean isFaceDisabledByAdmin(Context context) {
         DevicePolicyManager devicePolicyManager = (DevicePolicyManager) context.getSystemService(Context.DEVICE_POLICY_SERVICE);
         try {
